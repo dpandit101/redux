@@ -6,6 +6,46 @@
   height: 40vmin;
   pointer-events: none;
 }
+/*  */
+
+.img-wrap img{
+  height: 100px;
+  width: 100px;
+  margin-top: -10px;
+}
+.text-wrap{
+}
+.item{
+  float: left;
+    width: 120px;
+  height: 70px;
+  padding: 10px;
+}
+.cart-wrap img{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 2%; 
+  right: 2%; 
+}
+.container{
+
+  margin-left: 10%;
+  height: 100px ;
+  width: 500px;
+  border: 2px solid black;
+}
+.button-wrap button{
+  height: 20px;
+  width: 100px;
+  padding: 5;
+  text-align: center;
+  background-color: aqua;
+  border: 1px solid black;
+  box-shadow: #282c34 0px 1px 5px;
+}
+
+/*  */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
